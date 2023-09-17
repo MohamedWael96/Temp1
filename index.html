@@ -1,85 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="tailwind.min.css">
+    <script src="soda.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>web1</title>
 </head>
 <body>
-    <div>
-        <nav class="navbar  d-flex justify-content-xl-around  navbar-expand-lg bg-body-tertiary ">
-            <div class="container-fluid ">
-              <a class="navbar-brand" href="#">EMAM </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" target="_self" href="stic.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link"  target="_self" href="index.html">SIGN UP</a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link"  target="_self" href="prof.html">Profile</a>
-
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link "  target="_self" href="cont.html">contact</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+  <div class="flex flex-wrap py-2 ">
+    <div class="w-full px-1 ">
+      <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-indigo-500 rounded">
+        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+          <div class="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
+            <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href="#pablo">
+              indigo Menu
+            </a>
+            <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button">
+              <span class="block relative w-6 h-px rounded-sm bg-white"></span>
+              <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+              <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+            </button>
+          </div>
+          <div class="flex lg:flex-grow items-center" id="example-navbar-info">
+            <ul class="flex flex-col lg:flex-row list-none ml-auto">
+              <li class="nav-item">
+                <a class="px-6 py-2 mx-5 flex items-center  text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+                  Discover
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="px-6 py-2 mx-5 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+                  Profile
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="px-6  py-2 mx-5 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+                  Settings
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="px-6  py-2 mx-5 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+                  Settings
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-    <div>
-        <form class="form row g-3">
-            <div class="ff  Email  col-md-6">
-              <label for="inputEmail4" class="form-label" >EMAIL</label>
-              <input type="email" class="e2 form-control" id="inputEmail4" placeholder="ENTER YOU EMAIL">
-            </div>
-            <div class="ff pass col-md-6">
-              <label for="inputPassword4" class="form-label">PASSWORD</label>
-              <input type="password" class="p2 form-control" id="inputPassword4">
-            </div>
-            <div class="ff add col-6">
-              <label for="inputAddress" class="form-label">MOBILE</label>
-              <input type="number" class="a2 form-control" id="inputAddress" placeholder="ENTER YOUR MOBILE NUMBER">
-            </div> <br>
-            
-            <div class=" ff GEN col-md-6">
-              <label for="inputState" class="form-label">GENDER</label>
-              <select id="inputState" class="g2 form-select">
-                <option selected>Gender</option>
-                <option>MALE</option>
-                <option>FEMALE</option>
-                
-              </select>
-            </div>
-            
-            <div class=" col-12">
-              <div class="CHE form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
-                </label>
-              </div>
-            </div>
-            <div class="sub  col-12">
-              <button type="submit" class="btn btn-outline-success">Sign in</button>
-            </div>
-          </form>
-    </div>
-    
-    
+  </div>
+  
+  <div class="mb-2 p-20 flex  ">
+    <span class="text-xl   font-semibold inline-block p-3 uppercase  text-fuchsia-600 bg-fuchsia-200 uppercase last:mr-3 mr-2">
+      fuchsia
+    </span>
+    <input type="text"  placeholder="Placeholder" class="  px-3 py-3 placeholder-slate-300 text-slate-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"/>
+  </div>
+  
+  
 </body>
 </html>
+
+
