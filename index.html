@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="tailwind.min.css">
     <script src="soda.js"></script>
@@ -9,59 +12,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web1</title>
 </head>
+
 <body>
-  <div class="flex flex-wrap py-2 ">
-    <div class="w-full px-1 ">
-      <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-indigo-500 rounded">
-        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div class="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
-            <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href="#pablo">
-              indigo Menu
-            </a>
-            <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button">
-              <span class="block relative w-6 h-px rounded-sm bg-white"></span>
-              <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
-              <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
-            </button>
-          </div>
-          <div class="flex lg:flex-grow items-center" id="example-navbar-info">
-            <ul class="flex flex-col lg:flex-row list-none ml-auto">
-              <li class="nav-item">
-                <a class="px-6 py-2 mx-5 flex items-center  text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-                  Discover
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="px-6 py-2 mx-5 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-                  Profile
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="px-6  py-2 mx-5 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-                  Settings
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="px-6  py-2 mx-5 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-                  Settings
-                </a>
-              </li>
-            </ul>
-          </div>
+    <div class="flex flex-wrap py-2 hoverc">
+        <div class="w-full px-1 ">
+            <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-indigo-500 rounded">
+                <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+                    <div
+                        class="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
+                        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+                            href="#pablo">
+                            indigo Menu
+                        </a>
+                        <button
+                            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                            type="button">
+                            <span class="block relative w-6 h-px rounded-sm bg-white"></span>
+                            <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+                            <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+                        </button>
+                    </div>
+                    <div class="flex lg:flex-grow items-center" id="example-navbar-info">
+                        <ul class="flex flex-col lg:flex-row list-none ml-auto">
+                            <li class="nav-item">
+                                <a class="px-6 py-2 mx-5 flex items-center  text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                                    href="#pablo">
+                                    Discover
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="px-6 py-2 mx-5 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                                    href="#pablo">
+                                    Profile
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="px-6  py-2 mx-5 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                                    href="#pablo">
+                                    Settings
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="px-6  py-2 mx-5 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                                    href="#pablo">
+                                    Settings
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
-      </nav>
     </div>
-  </div>
-  
-  <div class="mb-2 p-20 flex  ">
-    <span class="text-xl   font-semibold inline-block p-3 uppercase  text-fuchsia-600 bg-fuchsia-200 uppercase last:mr-3 mr-2">
-      fuchsia
-    </span>
-    <input type="text"  placeholder="Placeholder" class="  px-3 py-3 placeholder-slate-300 text-slate-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"/>
-  </div>
-  
-  
+
+
+
+
+
+
+
+    <footer class=" w-full bg-white rounded-lg shadow m-4 dark:bg-gray-800 hoverc">
+        <div class="w-full mx-auto max-w-screen-xl p-6 md:flex md:items-center md:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/"
+                    class="hover:underline">Flowbite™</a>. All Rights Reserved.
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
 </body>
+
 </html>
-
-
